@@ -1,44 +1,25 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Typed RRR
 
-## Available Scripts
+A *TypeScriptified* application that runs with the three big **R's**: React, Redux, React-Router.
+Also throws in Styled Components for fun.
 
-In the project directory, you can run:
+This project was created predominantly for using as a basis for a "real" project. Feel free to take
+it and do with it as you wish for you own needs.
 
-### `npm start`
+## Scripts
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+> [Yarn](https://yarnpkg.com/) is the recommended package manager for this project.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+- `yarn install` ~ *Install dependencies*
+- `yarn start` ~ *For local development*
+- `yarn test` ~ *Run all tests once with coverage*
 
-### `npm test`
+This project was bootstraped with Create React App, so you can always run `yarn eject` if you want
+to (irreversibly) expose the underlying config files for advanced build configurations.
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Useful resources
 
-### `npm run build`
+I found these resources useful for setting up this project:
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [Create React App for TypeScript](https://create-react-app.dev/docs/adding-typescript)
+- [Redux usage with TypeScript](https://redux.js.org/recipes/usage-with-typescript)
